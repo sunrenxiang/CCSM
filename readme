@@ -1,0 +1,16 @@
+## Confidence-Aware Cross Supervised Model for Semi-supervised Skin lesion Segmentation
+
+Pytorch implementation of CCSM <br/>
+
+## Preparation
+* Download the dataset ISIC 2017 (https://challenge.isic-archive.com/landing/2017/). Resize images to 248×248.
+
+## Train
+* Run `sh train.sh` to start the training process
+
+## Evaluate
+* Specify the model path in `eval.sh`
+* Run `sh eval.sh` to start the evaluation.
+
+## Note
+* Contact: Zhonglin Sun (zlsun20@mails.jlu.edu.cn)
